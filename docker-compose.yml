@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  web:
+    image: devops-react:latest
+    container_name: devops-react
+    ports:
+      - "80:80"
+    restart: unless-stopped
